@@ -19,11 +19,12 @@
   },
   "dependencies": {
     "@hyperapp/router": "^0.7.1",
+    "firebase": "^5.5.8",
     "hyperapp": "^1.2.9"
   },
   "devDependencies": {
     "@types/jest": "^23.3.0",
-    "@types/node": "^10.5.2",
+    "@types/node": "^10.12.9",
     "autoprefixer": "^9.0.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.4.1",
