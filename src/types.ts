@@ -1,4 +1,4 @@
-import { LocationActions, LocationState } from "@hyperapp/router"
+import { LocationActions, LocationState } from '@hyperapp/router'
 
 export interface State {
   location: LocationState,
@@ -9,7 +9,7 @@ export interface Actions {
   location: LocationActions,
   login (username: string, pass: string): State
   register (username: string, pass: string): State
-  logout () : State
+  logout (): State
 }
 
 export interface Label {

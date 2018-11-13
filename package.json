@@ -12,7 +12,7 @@
     "start": "parcel public/index.html",
     "prebuild": "yarn lint && yarn clean",
     "build": "env NODE_ENV=production parcel build --experimental-scope-hoisting --detailed-report --public-url ./ ./public/index.html",
-    "lint": "tslint --format stylish --project tsconfig.json",
+    "lint": "tslint --format stylish --fix --project tsconfig.json",
     "pretest": "yarn lint",
     "test": "jest",
     "test:watch": "jest --watch"
