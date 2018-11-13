@@ -1,0 +1,18 @@
+@import "variables.scss";
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    box-sizing: border-box;
+}
+
+html, body, main {
+    height: 100%
+}
+
+body {
+    margin: 0px;
+    margin-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
