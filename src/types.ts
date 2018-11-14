@@ -31,5 +31,3 @@ export interface Navbar {
   login (): State,
   logout (): State
 }
-
-// export interface Counter extends Actions, Label {}
