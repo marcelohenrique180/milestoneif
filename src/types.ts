@@ -1,4 +1,5 @@
 import { LocationActions, LocationState } from '@hyperapp/router'
+import { SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION } from 'constants'
 
 export interface State {
   location: LocationState,
@@ -27,6 +28,8 @@ export interface Logged {
 
 export interface Navbar {
   logged: Logged,
+  login (): State,
+  logout (): State
 }
 
 // export interface Counter extends Actions, Label {}

@@ -12,11 +12,11 @@ export namespace Store {
 
   export const actions: ActionsType<State, Actions> = {
     location: location.actions,
-    login: (username: string, pass: string) => (state: State) => {
+    login: (username: string) => (state: State) => {
       localStorage.setItem('username', username)
       return { logged: { isLoggedIn: true } }
     },
-    register: (username: string, pass: string) => (state: State) => {
+    register: (username: string) => (state: State) => {
       localStorage.setItem('username', username)
       return { logged: { isLoggedIn: true } }
     },
