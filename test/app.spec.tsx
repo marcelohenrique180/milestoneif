@@ -1,5 +1,5 @@
 import { app, h, View } from 'hyperapp'
-import { location } from "@hyperapp/router"
+import { location } from '@hyperapp/router'
 import { Actions, State } from '../src/types'
 import { actions, state } from '../src/app'
 import { NavbarComponent } from '../src/components/navbar'
